@@ -1,0 +1,62 @@
+body {
+    background-color: gray;
+}
+
+#ingreso {
+    margin-left: 93%;
+}
+
+
+/*TRANSICION*/
+
+.navegador {
+    background-color: black;
+    animation-name: example;
+    animation-duration: 10s;
+    animation-iteration-count: infinite;
+    animation-delay: 2s;
+}
+
+@keyframes example {
+    0% {
+        background-color: grey;
+    }
+    25% {
+        background-color: black;
+    }
+    50% {
+        background-color: grey;
+    }
+    75% {
+        background-color: black;
+    }
+    100% {
+        background-color: grey;
+    }
+}
+
+.box {
+    background-color: brown;
+    float: left;
+    margin-right: 5px;
+    text-align: center;
+}
+
+.box:hover {
+    color: burlywood;
+}
+
+h1,
+h2,
+h3 {
+    font-family: 'Architects Daughter', cursive;
+}
+
+footer {
+    background-color: black;
+    height: 50%;
+    width: 98%;
+    color: white;
+    padding: 15px;
+    align-items: center;
+}

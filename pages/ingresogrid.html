@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <link rel="stylesheet" href="../css/styles.css">
+    <link rel="icon" href="./assets/ico/icono cine.svg">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+
+    <title>Document</title>
+
+    <style>
+        .grid-container {
+            display: grid;
+            grid-template-columns: auto auto auto;
+            background-color: rgb(78, 78, 77);
+        }
+        
+        .grid-footer {
+            display: grid;
+            grid-template-columns: auto auto auto;
+        }
+        
+        .grid-item {
+            font-size: 15px;
+            text-align: center;
+        }
+    </style>
+</head>
+
+<body>
+
+    <nav>
+        <br>
+        <h1> NerdFlix.</h1>
+        <h4>“La pregunta es lo que nos impulsa.”</h4>
+        <nav class="navegador">
+
+            <ul class="nav nav-tabs">
+                <li class="nav-item">
+                    <a class="btn btn-dark" href="../index.html">Inicio </a> <a class="btn btn-dark" href="./registro.html"> Registro </a> <a class="btn btn-dark" href="./contacto.html"> Contacto!!!</a>
+
+                </li>
+            </ul>
+        </nav>
+    </nav>
+    <br>
+    <article>
+        <br>
+        <h3>Ingresa y descubri el contenido!!! </h3>
+        <br>
+        <div class=grid.container></div>
+        <div class="grid-item">
+
+            <form action="https://www.w3schools.com/action_page.php" method="POST" target="__blank">
+
+                <label for="fname"><h3>Ingrese su mail:</h3></label>
+                <input type="mail" id="mail" name="mail" placeholder="Mail">
+                <br>
+        </div>
+
+        <div class="grid-item">
+            <div class="form-group">
+                <label for="pwd"><h3>Password:</h3></label>
+                <input type="password" class="form-control" placeholder="Enter password" id="pwd">
+            </div>
+        </div>
+        <div class="grid-item">
+            <div class="form-group form-check">
+                <label class="form-check-label">
+                <br>
+              <input class="form-check-input" type="checkbox"> Recordarme</label>
+            </div>
+            <br>
+            <button type="submit" class="btn btn-primary">Entrar!!!</button></div>
+        </div>
+    </article>
+    <br>
+    <br>
+    <br>
+
+    <footer>
+        <div class="grid-footer">
+            <div class="grid-item">
+                <p>Contactanos:</p>
+                <p>Estamos en...</p>
+                <a href="https://www.facebook.com/"><img src="./assets/ico/facebook.svg.png" width="50px" height="50px"></a>
+                <a href="https://twitter.com/"><img src="./assets/ico/twitter.png" width="50px" height="50px"></a>
+                <a href="https://www.youtube.com/"><img src="./assets/ico/you2.png" width="50px" height="50px"></a>
+            </div>
+            <div class="grid-item"><a href="https://www.google.com/maps/place/Cochabamba+3199,+Buenos+Aires/@-34.6262012,-58.4122657,17z/data=!3m1!4b1!4m5!3m4!1s0x95bccb02729cf1e1:0x15399fbaaeb83768!8m2!3d-34.6262012!4d-58.410077">Cochabamba 3199  <br>San Cristobal - C.A.B.A.</a>
+                <br>
+                <br>
+                <br>
+                <h6>Ricardo Gabriel Rodriguez - Todos los derechos reservados.</h6>
+            </div>
+            <div class="grid-item">
+                <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3283.1281712097657!2d-58.4122656847698!3d-34.626201180453705!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x95bccb02729cf1e1%3A0x15399fbaaeb83768!2sCochabamba%203199%2C%20Buenos%20Aires!5e0!3m2!1ses!2sar!4v1632752506573!5m2!1ses!2sar"
+                    width="250" height="150" style="border:0;" allowfullscreen="" loading="lazy"></iframe>
+
+            </div>
+
+        </div>
+    </footer>
+</body>
+
+</html>
